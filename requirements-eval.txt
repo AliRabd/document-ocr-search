@@ -1,0 +1,5 @@
+# Only needed for the evaluation toolkit (no ML libraries required)
+pytesseract
+Pillow
+numpy
+openpyxl

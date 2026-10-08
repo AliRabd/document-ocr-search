@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Ivywood Education
+Invoice No: INV-2026-9540
+Date: 2026-08-08
+City: Cairo
+
+Description          Qty    Price
+Network cables  4  9.90
+Packing boxes  14  2.15
+Printer toner  12  42.25
+
+Total: 576.70 USD

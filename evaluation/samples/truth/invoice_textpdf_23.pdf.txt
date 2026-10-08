@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Juniper Marine
+Invoice No: INV-2026-7039
+Date: 2026-07-15
+City: Beirut
+
+Description          Qty    Price
+Office chairs  11  85.50
+Printer toner  4  42.25
+Lab reagents  8  215.00
+
+Total: 2829.50 USD

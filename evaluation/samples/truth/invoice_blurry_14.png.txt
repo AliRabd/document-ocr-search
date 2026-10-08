@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Goldleaf Packaging
+Invoice No: INV-2026-7223
+Date: 2026-03-15
+City: Dubai
+
+Description          Qty    Price
+Office chairs  17  85.50
+Safety gloves  4  6.75
+Network cables  10  9.90
+
+Total: 1579.50 USD

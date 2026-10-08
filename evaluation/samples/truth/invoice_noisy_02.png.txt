@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Northgate Optics
+Invoice No: INV-2026-3357
+Date: 2026-12-21
+City: Tunis
+
+Description          Qty    Price
+Lab reagents  19  215.00
+Packing boxes  9  2.15
+Printer toner  1  42.25
+
+Total: 4146.60 USD

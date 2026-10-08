@@ -1,0 +1,398 @@
+{
+  "date": "2026-10-08",
+  "mode": "v2",
+  "image_engine": "tesseract",
+  "tesseract_lang": "eng",
+  "files_evaluated": 36,
+  "files_skipped": [],
+  "overall": {
+    "files": 36,
+    "cer": 0.011319026524381555,
+    "wer": 0.02948343079922027,
+    "char_accuracy": 0.9886809734756183,
+    "median_cer": 0.0,
+    "avg_confidence": 93.42,
+    "avg_seconds": 4.911467446221246,
+    "p95_seconds": 19.97478747367859,
+    "failure_rate": 0.0,
+    "empty_rate": 0.0,
+    "throughput_files_per_min": 12.216308192404375
+  },
+  "by_doc_type": {
+    "image": {
+      "files": 22,
+      "cer": 0.018272977401042795,
+      "wer": 0.04746191497552659,
+      "char_accuracy": 0.9817270225989572,
+      "median_cer": 0.0,
+      "avg_confidence": 92.71818181818182,
+      "avg_seconds": 4.835003506053578,
+      "p95_seconds": 19.97478747367859,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "pdf_text": {
+      "files": 3,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": null,
+      "avg_seconds": 0.08537491162618001,
+      "p95_seconds": 0.08721232414245605,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "pdf_scanned": {
+      "files": 6,
+      "cer": 0.0009132420091324201,
+      "wer": 0.0028735632183908046,
+      "char_accuracy": 0.9990867579908675,
+      "median_cer": 0.0,
+      "avg_confidence": 95.3,
+      "avg_seconds": 10.357246398925781,
+      "p95_seconds": 27.81282353401184,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "pdf_mixed": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 95.5,
+      "avg_seconds": 3.8169981241226196,
+      "p95_seconds": 3.8534793853759766,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "csv": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": null,
+      "avg_seconds": 0.047693610191345215,
+      "p95_seconds": 0.0526423454284668,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "excel": {
+      "files": 1,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": null,
+      "avg_seconds": 0.3137643337249756,
+      "p95_seconds": 0.3137643337249756,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    }
+  },
+  "by_category": {
+    "image_blurry": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 94.75,
+      "avg_seconds": 2.4612234830856323,
+      "p95_seconds": 2.8403983116149902,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "image_blurry_heavy": {
+      "files": 2,
+      "cer": 0.07462912503784438,
+      "wer": 0.31155474894131885,
+      "char_accuracy": 0.9253708749621556,
+      "median_cer": 0.07462912503784438,
+      "avg_confidence": 80.6,
+      "avg_seconds": 5.661118149757385,
+      "p95_seconds": 8.027094841003418,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "image_clean": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 94.95,
+      "avg_seconds": 2.548157572746277,
+      "p95_seconds": 3.0613579750061035,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "image_jpeg_low": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 95.05,
+      "avg_seconds": 2.3517986536026,
+      "p95_seconds": 2.7673726081848145,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "image_lowres": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 94.65,
+      "avg_seconds": 1.9911510944366455,
+      "p95_seconds": 2.256026268005371,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "image_lowres_heavy": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 92.05,
+      "avg_seconds": 3.62202787399292,
+      "p95_seconds": 4.183685541152954,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "image_noisy": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 95.15,
+      "avg_seconds": 3.4834073781967163,
+      "p95_seconds": 4.141914129257202,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "image_noisy_heavy": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 94.85,
+      "avg_seconds": 21.60428750514984,
+      "p95_seconds": 23.233787536621094,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "image_shadow": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 94.6,
+      "avg_seconds": 3.9400410652160645,
+      "p95_seconds": 4.39511251449585,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "image_skewed": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 95.55,
+      "avg_seconds": 2.657322645187378,
+      "p95_seconds": 3.2992489337921143,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "image_skewed_heavy": {
+      "files": 2,
+      "cer": 0.12637362637362637,
+      "wer": 0.21052631578947367,
+      "char_accuracy": 0.8736263736263736,
+      "median_cer": 0.12637362637362637,
+      "avg_confidence": 87.69999999999999,
+      "avg_seconds": 2.8645031452178955,
+      "p95_seconds": 3.0809454917907715,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "pdf_text": {
+      "files": 3,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": null,
+      "avg_seconds": 0.08537491162618001,
+      "p95_seconds": 0.08721232414245605,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "pdf_scanned": {
+      "files": 6,
+      "cer": 0.0009132420091324201,
+      "wer": 0.0028735632183908046,
+      "char_accuracy": 0.9990867579908675,
+      "median_cer": 0.0,
+      "avg_confidence": 95.3,
+      "avg_seconds": 10.357246398925781,
+      "p95_seconds": 27.81282353401184,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "pdf_mixed": {
+      "files": 2,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": 95.5,
+      "avg_seconds": 3.8169981241226196,
+      "p95_seconds": 3.8534793853759766,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "csv_arabic": {
+      "files": 1,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": null,
+      "avg_seconds": 0.0526423454284668,
+      "p95_seconds": 0.0526423454284668,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "xlsx": {
+      "files": 1,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": null,
+      "avg_seconds": 0.3137643337249756,
+      "p95_seconds": 0.3137643337249756,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    },
+    "csv": {
+      "files": 1,
+      "cer": 0.0,
+      "wer": 0.0,
+      "char_accuracy": 1.0,
+      "median_cer": 0.0,
+      "avg_confidence": null,
+      "avg_seconds": 0.04274487495422363,
+      "p95_seconds": 0.04274487495422363,
+      "failure_rate": 0.0,
+      "empty_rate": 0.0
+    }
+  },
+  "field_accuracy": {
+    "invoice_no": 0.9375,
+    "date": 0.9375,
+    "total": 0.9375
+  },
+  "field_accuracy_avg": 0.9375,
+  "search": {
+    "ocr": {
+      "queries": 54,
+      "hit@1": 0.6666666666666666,
+      "hit@3": 0.9814814814814815,
+      "hit@10": 0.9814814814814815,
+      "precision@3": 0.32716049382716045,
+      "mrr": 0.8055555555555556,
+      "ndcg@10": 0.8507449498015932
+    },
+    "ground_truth": {
+      "queries": 54,
+      "hit@1": 0.6851851851851852,
+      "hit@3": 1.0,
+      "hit@10": 1.0,
+      "precision@3": 0.3333333333333333,
+      "mrr": 0.8240740740740741,
+      "ndcg@10": 0.8692634683201118
+    },
+    "retention_mrr": 0.9775280898876405,
+    "retention_hit@10": 0.9814814814814815
+  },
+  "environment": {
+    "python": "3.13.16",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "quality_gate": [
+    {
+      "metric": "CER",
+      "value": 0.011319026524381555,
+      "threshold": 0.03,
+      "op": "<=",
+      "passed": true
+    },
+    {
+      "metric": "WER",
+      "value": 0.02948343079922027,
+      "threshold": 0.06,
+      "op": "<=",
+      "passed": true
+    },
+    {
+      "metric": "Failure rate",
+      "value": 0.0,
+      "threshold": 0.0,
+      "op": "<=",
+      "passed": true
+    },
+    {
+      "metric": "Empty-output rate",
+      "value": 0.0,
+      "threshold": 0.02,
+      "op": "<=",
+      "passed": true
+    },
+    {
+      "metric": "Avg seconds/file",
+      "value": 4.911467446221246,
+      "threshold": 10.0,
+      "op": "<=",
+      "passed": true
+    },
+    {
+      "metric": "Field accuracy",
+      "value": 0.9375,
+      "threshold": 0.85,
+      "op": ">=",
+      "passed": true
+    },
+    {
+      "metric": "Search hit@10",
+      "value": 0.9814814814814815,
+      "threshold": 0.9,
+      "op": ">=",
+      "passed": true
+    },
+    {
+      "metric": "Search MRR",
+      "value": 0.8055555555555556,
+      "threshold": 0.7,
+      "op": ">=",
+      "passed": true
+    },
+    {
+      "metric": "Search retention (MRR)",
+      "value": 0.9775280898876405,
+      "threshold": 0.9,
+      "op": ">=",
+      "passed": true
+    }
+  ]
+}

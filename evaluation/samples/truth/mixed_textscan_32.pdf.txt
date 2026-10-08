@@ -1,0 +1,26 @@
+INVOICE
+
+Company: Oakridge Energy
+Invoice No: INV-2026-5280
+Date: 2026-02-01
+City: Riyadh
+
+Description          Qty    Price
+Network cables  17  9.90
+Printer toner  9  42.25
+Office chairs  5  85.50
+
+Total: 976.05 USD
+
+Falconridge Travel
+Attention: Huda Saleh
+Reference: LTR-4102
+
+The warehouse in Cairo will dispatch the goods on the first
+working day.
+All shipments include a packing list and a signed certificate
+of origin.
+Payment is due within thirty days of the invoice date unless
+stated otherwise.
+Please contact Huda Saleh if any item is damaged or missing
+on arrival.

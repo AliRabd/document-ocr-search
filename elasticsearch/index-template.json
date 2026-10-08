@@ -1,0 +1,45 @@
+{
+  "index_patterns": ["all_extractor*"],
+  "template": {
+    "settings": {
+      "number_of_shards": 2,
+      "number_of_replicas": 1
+    },
+    "mappings": {
+      "dynamic": true,
+      "properties": {
+        "doc_id":          { "type": "keyword" },
+        "file_path":       { "type": "keyword" },
+        "filename":        { "type": "keyword",
+                             "fields": { "text": { "type": "text" } } },
+        "extension":       { "type": "keyword" },
+        "doc_type":        { "type": "keyword" },
+        "ocr_engine":      { "type": "keyword" },
+        "pdf_backend":     { "type": "keyword" },
+        "content": {
+          "type": "text",
+          "fields": {
+            "ar": { "type": "text", "analyzer": "arabic" },
+            "en": { "type": "text", "analyzer": "english" }
+          }
+        },
+        "chunk_index":     { "type": "integer" },
+        "chunk_total":     { "type": "integer" },
+        "char_count":      { "type": "integer" },
+        "word_count":      { "type": "integer" },
+        "page_count":      { "type": "integer" },
+        "pages_text_layer":{ "type": "integer" },
+        "pages_ocr":       { "type": "integer" },
+        "pages_failed":    { "type": "integer" },
+        "ocr_confidence":  { "type": "float" },
+        "extract_seconds": { "type": "float" },
+        "file_size":       { "type": "long" },
+        "truncated":       { "type": "boolean" },
+        "modified":        { "type": "date" },
+        "processed_at":    { "type": "date" },
+        "warning":         { "type": "keyword" },
+        "error":           { "type": "text", "index": false }
+      }
+    }
+  }
+}

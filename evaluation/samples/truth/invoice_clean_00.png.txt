@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Brightwave Logistics
+Invoice No: INV-2026-1924
+Date: 2026-01-24
+City: Dubai
+
+Description          Qty    Price
+Safety gloves  4  6.75
+Cotton fabric roll  18  140.00
+Printer toner  3  42.25
+
+Total: 2673.75 USD

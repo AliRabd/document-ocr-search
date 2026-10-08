@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Crestline Motors
+Invoice No: INV-2026-5410
+Date: 2026-08-01
+City: Doha
+
+Description          Qty    Price
+Printer toner  8  42.25
+LED panels  2  58.40
+Packing boxes  8  2.15
+
+Total: 472.00 USD

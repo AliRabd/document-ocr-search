@@ -1,0 +1,10 @@
+# Copy/adapt to /etc/logstash/logstash.yml
+path.data: /var/lib/logstash
+path.logs: /var/log/logstash
+
+# Heap size is NOT set here: edit -Xms/-Xmx in /etc/logstash/jvm.options
+# (for example -Xms4g / -Xmx4g).
+
+# Start conservatively and benchmark before increasing.
+# pipeline.workers: 2
+# pipeline.batch.size: 125

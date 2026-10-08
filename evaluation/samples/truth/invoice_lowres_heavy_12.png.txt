@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Willowbrook Labs
+Invoice No: INV-2026-2604
+Date: 2026-11-06
+City: Beirut
+
+Description          Qty    Price
+Packing boxes  20  2.15
+Printer toner  15  42.25
+Cotton fabric roll  17  140.00
+
+Total: 3056.75 USD

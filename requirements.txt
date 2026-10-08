@@ -1,0 +1,12 @@
+# Core (works with Python 3.8+). Pin exact versions with `pip freeze` on your
+# working server before deploying, e.g. PyMuPDF==1.23.x
+PyMuPDF
+pytesseract
+Pillow
+numpy
+openpyxl
+docx2txt
+# EasyOCR (Arabic+English photos). Heavy: pulls PyTorch.
+easyocr
+# Headless build - the normal opencv-python needs libGL on servers.
+opencv-python-headless

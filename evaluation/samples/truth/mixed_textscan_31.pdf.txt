@@ -1,0 +1,26 @@
+INVOICE
+
+Company: Maplecrest Printing
+Invoice No: INV-2026-9433
+Date: 2026-04-19
+City: Muscat
+
+Description          Qty    Price
+Office chairs  9  85.50
+Printer toner  7  42.25
+Cotton fabric roll  11  140.00
+
+Total: 2605.25 USD
+
+Eastfield Pharma
+Attention: Nadia Farouk
+Reference: LTR-6584
+
+Payment is due within thirty days of the invoice date unless
+stated otherwise.
+Quarterly volumes will be reviewed jointly to adjust pricing
+and capacity.
+The warehouse in Doha will dispatch the goods on the first
+working day.
+Please contact Nadia Farouk if any item is damaged or missing
+on arrival.

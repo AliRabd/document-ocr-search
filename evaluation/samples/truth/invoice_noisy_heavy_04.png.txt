@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Harborview Medical
+Invoice No: INV-2026-6324
+Date: 2026-02-12
+City: Amman
+
+Description          Qty    Price
+LED panels  15  58.40
+Safety gloves  18  6.75
+Packing boxes  4  2.15
+
+Total: 1006.10 USD

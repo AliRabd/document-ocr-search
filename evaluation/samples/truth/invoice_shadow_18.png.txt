@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Eastfield Pharma
+Invoice No: INV-2026-7887
+Date: 2026-09-06
+City: Riyadh
+
+Description          Qty    Price
+Safety gloves  10  6.75
+Packing boxes  13  2.15
+Printer toner  12  42.25
+
+Total: 602.45 USD

@@ -1,0 +1,12 @@
+{
+  "_comment": "Quality gate for the bundled DEV set (Tesseract 5.3). Measured: CER 1.1%, WER 3.0%, empty 0%, fields 94%, hit@10 98%, MRR 0.81. Thresholds leave margin for environment differences.",
+  "max_cer": 0.03,
+  "max_wer": 0.06,
+  "max_failure_rate": 0.0,
+  "max_empty_rate": 0.02,
+  "max_avg_seconds": 10.0,
+  "min_field_accuracy": 0.85,
+  "min_hit_at_10": 0.90,
+  "min_mrr": 0.70,
+  "min_search_retention": 0.90
+}

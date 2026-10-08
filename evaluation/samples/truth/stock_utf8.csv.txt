@@ -1,0 +1,3 @@
+Product, Qty, City
+Steel brackets, 40, Amman
+Safety gloves, 300, Cairo

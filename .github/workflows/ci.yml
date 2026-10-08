@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-and-evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: System packages
+        run: sudo apt-get update && sudo apt-get install -y tesseract-ocr poppler-utils
+      - name: Python packages
+        run: pip install -r requirements-eval.txt
+      - name: Unit + regression tests
+        run: python -W ignore::ResourceWarning -m unittest discover -s tests -v
+      - name: JSON smoke test
+        run: bash scripts/test_json_output.sh
+      - name: Generate synthetic samples
+        run: python evaluation/make_samples.py
+      - name: Evaluate OCR quality (quality gate)
+        run: python evaluation/run_eval.py
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: evaluation-report
+          path: evaluation/results/

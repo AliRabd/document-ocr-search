@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Riverstone Hotels
+Invoice No: INV-2026-7617
+Date: 2026-03-09
+City: Doha
+
+Description          Qty    Price
+Steel brackets  19  12.80
+Cotton fabric roll  14  140.00
+LED panels  19  58.40
+
+Total: 3312.80 USD

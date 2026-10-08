@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Oakridge Energy
+Invoice No: INV-2026-6316
+Date: 2026-05-21
+City: Muscat
+
+Description          Qty    Price
+Lab reagents  2  215.00
+Cotton fabric roll  8  140.00
+LED panels  2  58.40
+
+Total: 1666.80 USD

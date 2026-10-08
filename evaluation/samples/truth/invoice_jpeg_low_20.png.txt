@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Greystone Bakery
+Invoice No: INV-2026-9175
+Date: 2026-04-19
+City: Amman
+
+Description          Qty    Price
+Cotton fabric roll  8  140.00
+Office chairs  3  85.50
+Network cables  2  9.90
+
+Total: 1396.30 USD

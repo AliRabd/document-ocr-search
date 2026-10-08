@@ -1,0 +1,282 @@
+{
+  "invoice_clean_00.png": {
+    "truth": "truth/invoice_clean_00.png.txt",
+    "category": "image_clean",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-1924",
+      "date": "2026-01-24",
+      "total": "2673.75"
+    }
+  },
+  "letter_clean_01.png": {
+    "truth": "truth/letter_clean_01.png.txt",
+    "category": "image_clean",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_noisy_02.png": {
+    "truth": "truth/invoice_noisy_02.png.txt",
+    "category": "image_noisy",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-3357",
+      "date": "2026-12-21",
+      "total": "4146.60"
+    }
+  },
+  "letter_noisy_03.png": {
+    "truth": "truth/letter_noisy_03.png.txt",
+    "category": "image_noisy",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_noisy_heavy_04.png": {
+    "truth": "truth/invoice_noisy_heavy_04.png.txt",
+    "category": "image_noisy_heavy",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-6324",
+      "date": "2026-02-12",
+      "total": "1006.10"
+    }
+  },
+  "letter_noisy_heavy_05.png": {
+    "truth": "truth/letter_noisy_heavy_05.png.txt",
+    "category": "image_noisy_heavy",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_skewed_06.png": {
+    "truth": "truth/invoice_skewed_06.png.txt",
+    "category": "image_skewed",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-4841",
+      "date": "2026-02-28",
+      "total": "3897.00"
+    }
+  },
+  "letter_skewed_07.png": {
+    "truth": "truth/letter_skewed_07.png.txt",
+    "category": "image_skewed",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_skewed_heavy_08.png": {
+    "truth": "truth/invoice_skewed_heavy_08.png.txt",
+    "category": "image_skewed_heavy",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-6316",
+      "date": "2026-05-21",
+      "total": "1666.80"
+    }
+  },
+  "letter_skewed_heavy_09.png": {
+    "truth": "truth/letter_skewed_heavy_09.png.txt",
+    "category": "image_skewed_heavy",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_lowres_10.png": {
+    "truth": "truth/invoice_lowres_10.png.txt",
+    "category": "image_lowres",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-7617",
+      "date": "2026-03-09",
+      "total": "3312.80"
+    }
+  },
+  "letter_lowres_11.png": {
+    "truth": "truth/letter_lowres_11.png.txt",
+    "category": "image_lowres",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_lowres_heavy_12.png": {
+    "truth": "truth/invoice_lowres_heavy_12.png.txt",
+    "category": "image_lowres_heavy",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-2604",
+      "date": "2026-11-06",
+      "total": "3056.75"
+    }
+  },
+  "letter_lowres_heavy_13.png": {
+    "truth": "truth/letter_lowres_heavy_13.png.txt",
+    "category": "image_lowres_heavy",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_blurry_14.png": {
+    "truth": "truth/invoice_blurry_14.png.txt",
+    "category": "image_blurry",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-7223",
+      "date": "2026-03-15",
+      "total": "1579.50"
+    }
+  },
+  "letter_blurry_15.png": {
+    "truth": "truth/letter_blurry_15.png.txt",
+    "category": "image_blurry",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_blurry_heavy_16.png": {
+    "truth": "truth/invoice_blurry_heavy_16.png.txt",
+    "category": "image_blurry_heavy",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-5410",
+      "date": "2026-08-01",
+      "total": "472.00"
+    }
+  },
+  "letter_blurry_heavy_17.png": {
+    "truth": "truth/letter_blurry_heavy_17.png.txt",
+    "category": "image_blurry_heavy",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_shadow_18.png": {
+    "truth": "truth/invoice_shadow_18.png.txt",
+    "category": "image_shadow",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-7887",
+      "date": "2026-09-06",
+      "total": "602.45"
+    }
+  },
+  "letter_shadow_19.png": {
+    "truth": "truth/letter_shadow_19.png.txt",
+    "category": "image_shadow",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_jpeg_low_20.png": {
+    "truth": "truth/invoice_jpeg_low_20.png.txt",
+    "category": "image_jpeg_low",
+    "doc_type": "image",
+    "fields": {
+      "invoice_no": "INV-2026-9175",
+      "date": "2026-04-19",
+      "total": "1396.30"
+    }
+  },
+  "letter_jpeg_low_21.png": {
+    "truth": "truth/letter_jpeg_low_21.png.txt",
+    "category": "image_jpeg_low",
+    "doc_type": "image",
+    "fields": {}
+  },
+  "invoice_textpdf_22.pdf": {
+    "truth": "truth/invoice_textpdf_22.pdf.txt",
+    "category": "pdf_text",
+    "doc_type": "pdf_text",
+    "fields": {
+      "invoice_no": "INV-2026-9540",
+      "date": "2026-08-08",
+      "total": "576.70"
+    }
+  },
+  "invoice_textpdf_23.pdf": {
+    "truth": "truth/invoice_textpdf_23.pdf.txt",
+    "category": "pdf_text",
+    "doc_type": "pdf_text",
+    "fields": {
+      "invoice_no": "INV-2026-7039",
+      "date": "2026-07-15",
+      "total": "2829.50"
+    }
+  },
+  "invoice_textpdf_24.pdf": {
+    "truth": "truth/invoice_textpdf_24.pdf.txt",
+    "category": "pdf_text",
+    "doc_type": "pdf_text",
+    "fields": {
+      "invoice_no": "INV-2026-3239",
+      "date": "2026-04-18",
+      "total": "1401.10"
+    }
+  },
+  "letter_scanpdf_clean_25.pdf": {
+    "truth": "truth/letter_scanpdf_clean_25.pdf.txt",
+    "category": "pdf_scanned",
+    "doc_type": "pdf_scanned",
+    "fields": {}
+  },
+  "letter_scanpdf_noisy_26.pdf": {
+    "truth": "truth/letter_scanpdf_noisy_26.pdf.txt",
+    "category": "pdf_scanned",
+    "doc_type": "pdf_scanned",
+    "fields": {}
+  },
+  "letter_scanpdf_skewed_27.pdf": {
+    "truth": "truth/letter_scanpdf_skewed_27.pdf.txt",
+    "category": "pdf_scanned",
+    "doc_type": "pdf_scanned",
+    "fields": {}
+  },
+  "letter_scanpdf_noisy_heavy_28.pdf": {
+    "truth": "truth/letter_scanpdf_noisy_heavy_28.pdf.txt",
+    "category": "pdf_scanned",
+    "doc_type": "pdf_scanned",
+    "fields": {}
+  },
+  "letter_scanpdf_skewed_heavy_29.pdf": {
+    "truth": "truth/letter_scanpdf_skewed_heavy_29.pdf.txt",
+    "category": "pdf_scanned",
+    "doc_type": "pdf_scanned",
+    "fields": {}
+  },
+  "letter_scanpdf_shadow_30.pdf": {
+    "truth": "truth/letter_scanpdf_shadow_30.pdf.txt",
+    "category": "pdf_scanned",
+    "doc_type": "pdf_scanned",
+    "fields": {}
+  },
+  "mixed_textscan_31.pdf": {
+    "truth": "truth/mixed_textscan_31.pdf.txt",
+    "category": "pdf_mixed",
+    "doc_type": "pdf_mixed",
+    "fields": {
+      "invoice_no": "INV-2026-9433",
+      "date": "2026-04-19",
+      "total": "2605.25"
+    }
+  },
+  "mixed_textscan_32.pdf": {
+    "truth": "truth/mixed_textscan_32.pdf.txt",
+    "category": "pdf_mixed",
+    "doc_type": "pdf_mixed",
+    "fields": {
+      "invoice_no": "INV-2026-5280",
+      "date": "2026-02-01",
+      "total": "976.05"
+    }
+  },
+  "stock_utf8.csv": {
+    "truth": "truth/stock_utf8.csv.txt",
+    "category": "csv",
+    "doc_type": "csv",
+    "fields": {}
+  },
+  "names_cp1256.csv": {
+    "truth": "truth/names_cp1256.csv.txt",
+    "category": "csv_arabic",
+    "doc_type": "csv",
+    "fields": {}
+  },
+  "sales_two_sheets.xlsx": {
+    "truth": "truth/sales_two_sheets.xlsx.txt",
+    "category": "xlsx",
+    "doc_type": "excel",
+    "fields": {}
+  }
+}

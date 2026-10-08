@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Brightwave Logistics
+Invoice No: INV-2026-3239
+Date: 2026-04-18
+City: Dubai
+
+Description          Qty    Price
+Network cables  9  9.90
+Steel brackets  15  12.80
+Cotton fabric roll  8  140.00
+
+Total: 1401.10 USD

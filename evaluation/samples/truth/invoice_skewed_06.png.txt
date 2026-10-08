@@ -1,0 +1,13 @@
+INVOICE
+
+Company: Lakeshore Software
+Invoice No: INV-2026-4841
+Date: 2026-02-28
+City: Doha
+
+Description          Qty    Price
+Cotton fabric roll  15  140.00
+Printer toner  12  42.25
+Lab reagents  6  215.00
+
+Total: 3897.00 USD

@@ -1,0 +1,55 @@
+query,expected_file
+Brightwave Logistics,invoice_clean_00.png
+INV-2026-1924,invoice_clean_00.png
+Willowbrook Labs,letter_clean_01.png
+Northgate Optics,invoice_noisy_02.png
+INV-2026-3357,invoice_noisy_02.png
+Goldleaf Packaging,letter_noisy_03.png
+Harborview Medical,invoice_noisy_heavy_04.png
+INV-2026-6324,invoice_noisy_heavy_04.png
+Crestline Motors,letter_noisy_heavy_05.png
+Lakeshore Software,invoice_skewed_06.png
+INV-2026-4841,invoice_skewed_06.png
+Eastfield Pharma,letter_skewed_07.png
+Oakridge Energy,invoice_skewed_heavy_08.png
+INV-2026-6316,invoice_skewed_heavy_08.png
+Greystone Bakery,letter_skewed_heavy_09.png
+Riverstone Hotels,invoice_lowres_10.png
+INV-2026-7617,invoice_lowres_10.png
+Ivywood Education,letter_lowres_11.png
+Willowbrook Labs,invoice_lowres_heavy_12.png
+INV-2026-2604,invoice_lowres_heavy_12.png
+Brightwave Logistics,letter_lowres_heavy_13.png
+Goldleaf Packaging,invoice_blurry_14.png
+INV-2026-7223,invoice_blurry_14.png
+Northgate Optics,letter_blurry_15.png
+Crestline Motors,invoice_blurry_heavy_16.png
+INV-2026-5410,invoice_blurry_heavy_16.png
+Harborview Medical,letter_blurry_heavy_17.png
+Eastfield Pharma,invoice_shadow_18.png
+INV-2026-7887,invoice_shadow_18.png
+Lakeshore Software,letter_shadow_19.png
+Greystone Bakery,invoice_jpeg_low_20.png
+INV-2026-9175,invoice_jpeg_low_20.png
+Oakridge Energy,letter_jpeg_low_21.png
+Ivywood Education,invoice_textpdf_22.pdf
+INV-2026-9540,invoice_textpdf_22.pdf
+Juniper Marine,invoice_textpdf_23.pdf
+INV-2026-7039,invoice_textpdf_23.pdf
+Brightwave Logistics,invoice_textpdf_24.pdf
+INV-2026-3239,invoice_textpdf_24.pdf
+Willowbrook Labs,letter_scanpdf_clean_25.pdf
+Redwood Analytics,letter_scanpdf_noisy_26.pdf
+Goldleaf Packaging,letter_scanpdf_skewed_27.pdf
+Bluepeak Consulting,letter_scanpdf_noisy_heavy_28.pdf
+Crestline Motors,letter_scanpdf_skewed_heavy_29.pdf
+Dunmore Chemicals,letter_scanpdf_shadow_30.pdf
+Maplecrest Printing,mixed_textscan_31.pdf
+INV-2026-9433,mixed_textscan_31.pdf
+Eastfield Pharma,mixed_textscan_31.pdf
+Oakridge Energy,mixed_textscan_32.pdf
+INV-2026-5280,mixed_textscan_32.pdf
+Falconridge Travel,mixed_textscan_32.pdf
+Safety gloves,stock_utf8.csv
+أحمد,names_cp1256.csv
+Southpoint,sales_two_sheets.xlsx
